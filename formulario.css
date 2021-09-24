@@ -1,0 +1,26 @@
+body {
+  padding: 150px;
+	/*The below background is just to add some color, you can set this to anything*/
+  background: url(http://www.magic4walls.com/wp-content/uploads/2014/01/texture-blue-fonchik-simple-dark-colors-glow-background.jpg) no-repeat;
+}
+
+.login-form{width:390px;
+}
+.login-title{font-family: 'Exo', sans-serif;text-align:center;color: white;}
+.login-userinput{margin-bottom: 10px;}
+.login-button{margin-top:10px;}
+.login-options{margin-bottom:0px;}
+.login-forgot{float: right;}
+.login-group{width: 100px;}
+
+    /* Enlaces visitados */  /* El usuario esta sobre el enlace */   
+
+
+.panel-body{
+ background-color:orchid;    
+}
+
+
+.checkbox{
+    font-family: cursive;
+}
