@@ -22,15 +22,37 @@
 		<div class="panel-body">
 			<form>
 				<div class="input-group login-userinput">
-					<label>	<input id="txtUser" type="text" class="form-control" name="username" placeholder="Email"></label>
+                    <label>	<input  id="txtPassword" type="password" class="form-control" name="password" placeholder="Nombre"> </label> 
+                    <label>	<input  id="txtPassword" type="password" class="form-control" name="password" placeholder="Contraseña"></label>
+                    <label>	<input id="txtUser" type="text" class="form-control" name="username" placeholder="Email"></label>
+                    
+                    
 				</div>
 				<div class="input-group">
-                    <label>	<input  id="txtPassword" type="password" class="form-control" name="password" placeholder="Contraseña"></label>
-					
+                  
+                  <label> <input type="radio" name="empleoactual" value="tiempocompleto"> Tiempo completo </label> <br>
+                  <label> <input type="radio" name="empleoactual" value="mediodia"> Medio día  </label><br>               
+                 <label> <input type="radio" name="empleoactual" value="sinempleo"> Sin empleo </label> <br>
+                 <label> <input type="radio" name="empleoactual" value="desocupado"> Sin empleo </label> <br>
+                 <select name="select">
+                    <option value="value1">Value 1</option>
+                    <option value="value2" selected>Value 2</option>
+                    <option value="value3">Value 3</option>
+                    <option value="value4">Value 4</option>
+                  </select>
+                 
+
+                 
+            
+                 <label for="Fecha">fecha:</label> <input type="date" id="fecha" name="fecha"> 
+            
+              
+              
+                  </form>
+
 				</div>
 				<div class="checkbox login-options">
-					<label><input type="checkbox"/> Recordar Usuario</label>
-                    <button class="btn btn-primary btn-block login-button" type="submit"><i class="fa fa-sign-in"></i> Iniciar sesión</button>
+                    <button class="btn btn-block login-button" type="submit"><i class="fa fa-sign-in"></i> Envia Datos</button>
                   <a href="formulariodecontacto.html"><p>formulario de contactos</p></a>
                 </div>		
 			</form>			
